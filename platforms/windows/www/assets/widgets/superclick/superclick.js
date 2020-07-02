@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Superclick v1.0.0 - jQuery menu widget
  * Copyright (c) 2013 Joel Birch
  *

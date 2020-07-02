@@ -1,4 +1,4 @@
-
+﻿
   /* Colorpicker */
 
 $(function() { "use strict";

@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Resizable @VERSION
  * http://jqueryui.com
  *

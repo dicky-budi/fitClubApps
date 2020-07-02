@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Spinner @VERSION
  * http://jqueryui.com
  *

@@ -1,4 +1,4 @@
-    /**
+﻿    /**
      * Bullet charts
      */
     $.fn.sparkline.bullet = bullet = createClass($.fn.sparkline._base, {

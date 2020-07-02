@@ -1,4 +1,4 @@
-/* Daterangepicker bootstrap */
+﻿/* Daterangepicker bootstrap */
 
 $(function() {
     "use strict";

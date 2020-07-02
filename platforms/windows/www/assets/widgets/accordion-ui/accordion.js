@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Accordion @VERSION
  * http://jqueryui.com
  *

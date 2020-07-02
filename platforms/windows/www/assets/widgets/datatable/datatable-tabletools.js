@@ -1,4 +1,4 @@
-/*! TableTools 2.2.3
+﻿/*! TableTools 2.2.3
  * 2009-2014 SpryMedia Ltd - datatables.net/license
  *
  * ZeroClipboard 1.0.4

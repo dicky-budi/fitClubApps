@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
 
 var defs = {}; // id -> {dependencies, definition, instance (possibly undefined)}
 

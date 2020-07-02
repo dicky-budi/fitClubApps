@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Waves v0.7.5
  * http://fian.my.id/Waves
  *

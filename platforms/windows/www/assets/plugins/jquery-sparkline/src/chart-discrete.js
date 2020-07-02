@@ -1,4 +1,4 @@
-    /**
+﻿    /**
      * Discrete charts
      */
     $.fn.sparkline.discrete = discrete = createClass($.fn.sparkline._base, barHighlightMixin, {

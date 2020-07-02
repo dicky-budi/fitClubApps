@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  DataTables Bootstrap 3 integration
  ©2011-2014 SpryMedia Ltd - datatables.net/license
 */

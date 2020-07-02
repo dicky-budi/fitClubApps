@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -54,7 +54,6 @@
 			var url = window.location.href.replace(/^.*[\\\/]/, '');
 			if (url == "bodyProgress.html") {
 				window.location.href = 'classHistory.html';
-				navigator.app.exitApp();
 			}
 			// navigator.app.exitApp();
 		}
@@ -108,7 +107,6 @@ width:100%;height:100%; opacity: 0.8;"></div>
 			<nav class="navbar navbar-dark navbar-2 purple-gradient col-12">
 
 				<!-- Navbar brand -->
-				<a class="navbar-brand" href="#"><i class="fas fa-angle-left"></i></a>
 				<center>
 					<h5 class="text-white">Body Progress</h5>
 				</center>
@@ -126,16 +124,16 @@ width:100%;height:100%; opacity: 0.8;"></div>
 					<!-- Links -->
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item active">
-							<a class="nav-link waves-effect waves-light" href="profile.html"><i
-									class="fas fa-user-alt"></i>&nbsp;Profile <span class="sr-only">(current)</span></a>
+							<a class="nav-link waves-effect waves-light" data-target="profile" data-uri="view" data-filter="profile"><i class="fas fa-user-alt"></i>&nbsp;Profile <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link waves-effect waves-light" href="membership.html"><i
-									class="fas fa-id-card-alt"></i>&nbsp;Membership</a>
+							<a class="nav-link waves-effect waves-light"  data-target="membership" data-uri="view" data-filter="membership"><i class="fas fa-id-card-alt"></i>&nbsp;Membership</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link waves-effect waves-light" href="#"><i
-									class="fas fa-cog"></i>&nbsp;Setting</a>
+							<a class="nav-link waves-effect waves-light" href="#"><i class="fas fa-cog"></i>&nbsp;Setting</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link waves-effect waves-light" href="#" data-target="index" data-uri="read" data-filter="index"><i class="fas fa-lock"></i>&nbsp;Logout</a>
 						</li>
 					</ul>
 					<!-- Links -->

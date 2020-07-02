@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * Parsleyjs
  * Guillaume Potier - <guillaume@wisembly.com>
  * Version 2.0.3 - built Mon Jul 21 2014 11:58:33

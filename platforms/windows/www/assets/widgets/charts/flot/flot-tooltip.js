@@ -1,4 +1,4 @@
-/*
+﻿/*
  * jquery.flot.tooltip
  *
  * description: easy-to-use tooltips for Flot charts

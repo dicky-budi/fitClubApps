@@ -1,4 +1,4 @@
-/* Custom Inputs */
+﻿/* Custom Inputs */
 
 $(function() { "use strict";
 

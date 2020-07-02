@@ -1,4 +1,4 @@
-    /**
+﻿    /**
      * Box plots
      */
     $.fn.sparkline.box = box = createClass($.fn.sparkline._base, {

@@ -1,4 +1,4 @@
-(function() {
+﻿(function() {
     var MutationObserver, Util, WeakMap, getComputedStyle, getComputedStyleRX,
         __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; },
         __indexOf = [].indexOf || function(item) { for (var i = 0, l = this.length; i < l; i++) { if (i in this && this[i] === item) return i; } return -1; };

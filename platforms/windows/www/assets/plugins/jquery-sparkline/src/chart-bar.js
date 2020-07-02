@@ -1,4 +1,4 @@
-    /**
+﻿    /**
      * Bar charts
      */
     $.fn.sparkline.bar = bar = createClass($.fn.sparkline._base, barHighlightMixin, {

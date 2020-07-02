@@ -185,7 +185,22 @@ width:100%;height:100%; opacity: 0.8;"></div>
 
 </div>
 
+<script type="text/javascript">
+    // function listener cordova
+    document.addEventListener("deviceready", onDeviceReady, false);
 
+    function onDeviceReady() {
+        document.addEventListener("backbutton", onBackKeyDown, false);
+    }
+
+    function onBackKeyDown() {
+        var url = window.location.href.replace(/^.*[\\\/]/, '');
+        if (url == "classDetail.html") {
+            window.location.href = 'classSchedule.html';
+        }
+    }
+    // End function Listener cordova
+</script>
 
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>

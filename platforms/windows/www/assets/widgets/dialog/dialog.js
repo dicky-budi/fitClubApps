@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Dialog @VERSION
  * http://jqueryui.com
  *

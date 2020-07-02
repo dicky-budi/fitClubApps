@@ -20,8 +20,6 @@ var splitCategory = [];
 var splitCatValue = [];
 function defineChart(data){
 	data.forEach(domBodyProgressChart);
-    console.log('s',splitCategory);
-    console.log('sv',splitCatValue);
     appendChart(splitCategory,splitCatValue);
     
 }

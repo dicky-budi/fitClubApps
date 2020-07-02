@@ -1,4 +1,4 @@
-/**
+﻿/**
  * jVectorMap version 1.2.2
  *
  * Copyright 2011-2013, Kirill Lebedev

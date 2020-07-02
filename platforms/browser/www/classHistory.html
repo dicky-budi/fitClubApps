@@ -45,7 +45,7 @@ width:100%;height:100%; opacity: 0.8;">
 		<nav class="navbar navbar-dark navbar-2 purple-gradient col-12">
 
 			<!-- Navbar brand -->
-			<a class="navbar-brand" data-target="index" data-uri="read" data-filter="index">Logout</a>
+			<!-- <a class="navbar-brand" data-target="index" data-uri="read" data-filter="index">Logout</a> -->
 			<center>
 					<h5 class="text-white">Class History</h5>
 			</center>
@@ -67,6 +67,9 @@ width:100%;height:100%; opacity: 0.8;">
 					</li>
 					<li class="nav-item">
 						<a class="nav-link waves-effect waves-light" href="#"><i class="fas fa-cog"></i>&nbsp;Setting</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link waves-effect waves-light" href="#" data-target="index" data-uri="read" data-filter="index"><i class="fas fa-lock"></i>&nbsp;Logout</a>
 					</li>
 				</ul>
 				<!-- Links -->
@@ -157,6 +160,26 @@ width:100%;height:100%; opacity: 0.8;">
 	</div>
 	<!-- end container card -->
 </div>
+<script type="text/javascript">
+	// function listener cordova
+	document.addEventListener("deviceready", onDeviceReady, false);
+
+	function onDeviceReady() {
+		document.addEventListener("backbutton", onBackKeyDown, false);
+		// document.getElementById("consignmentNote").addEventListener("click", dialogConfirm);
+		// window.addEventListener("orientationchange",updateOrientation);
+	}
+
+	function onBackKeyDown() {
+		var url = window.location.href.replace(/^.*[\\\/]/, '');
+		if (url == "classHistory.html") {
+			navigator.app.exitApp();
+		}
+
+		// navigator.app.exitApp();
+	}
+	// End function Listener cordova
+</script>
 
 </body>
 <!-- JQuery -->

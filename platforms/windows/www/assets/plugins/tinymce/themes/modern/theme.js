@@ -1,4 +1,4 @@
-/**
+﻿/**
  * theme.js
  *
  * Released under LGPL License.

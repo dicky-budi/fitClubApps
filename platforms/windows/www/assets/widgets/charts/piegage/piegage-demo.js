@@ -1,4 +1,4 @@
-/* Pie gauges */
+﻿/* Pie gauges */
 
 var initPieChart = function() {
 

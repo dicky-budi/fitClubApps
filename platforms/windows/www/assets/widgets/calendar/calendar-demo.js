@@ -1,4 +1,4 @@
-$(document).ready(function() {
+﻿$(document).ready(function() {
 
     $('#calendar-example-1').fullCalendar({
         header: {

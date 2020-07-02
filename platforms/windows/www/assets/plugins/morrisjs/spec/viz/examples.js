@@ -1,4 +1,4 @@
-var webpage = require("webpage"),
+﻿var webpage = require("webpage"),
     fs = require("fs");
 
 var html_path = fs.absolute("test.html");

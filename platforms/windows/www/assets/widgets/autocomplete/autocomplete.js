@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Autocomplete @VERSION
  * http://jqueryui.com
  *

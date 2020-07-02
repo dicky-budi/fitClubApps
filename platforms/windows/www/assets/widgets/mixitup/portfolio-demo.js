@@ -1,4 +1,4 @@
-$(function() {
+﻿$(function() {
 
     var $container = $('.isotope').imagesLoaded( function() {
         $container.isotope({

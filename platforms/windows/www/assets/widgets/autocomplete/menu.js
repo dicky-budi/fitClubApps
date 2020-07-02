@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Menu @VERSION
  * http://jqueryui.com
  *

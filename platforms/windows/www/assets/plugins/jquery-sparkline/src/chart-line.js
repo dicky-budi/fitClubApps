@@ -1,4 +1,4 @@
-    /**
+﻿    /**
      * Line charts
      */
     $.fn.sparkline.line = line = createClass($.fn.sparkline._base, {

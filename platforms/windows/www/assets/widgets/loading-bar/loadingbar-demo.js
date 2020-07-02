@@ -1,4 +1,4 @@
-  /* Loading bars */
+﻿  /* Loading bars */
 
   $(function() {
       "use strict";

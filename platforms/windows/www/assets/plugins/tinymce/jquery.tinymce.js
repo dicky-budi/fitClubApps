@@ -1,4 +1,4 @@
-/**
+﻿/**
  * jquery.tinymce.js
  *
  * Released under LGPL License.

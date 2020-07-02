@@ -1,4 +1,4 @@
-/*
+﻿/*
  * jQuery MiniColors: A tiny color picker built on jQuery
  *
  * Copyright Cory LaViska for A Beautiful Site, LLC. (http://www.abeautifulsite.net/)

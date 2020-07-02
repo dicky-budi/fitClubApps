@@ -1,4 +1,4 @@
-/**
+﻿/**
  * JustGage - animated gauges using RaphaelJS
  * Check http://www.justgage.com for official releases
  * Licensed under MIT.

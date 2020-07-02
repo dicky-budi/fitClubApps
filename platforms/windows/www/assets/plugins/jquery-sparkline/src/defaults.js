@@ -1,4 +1,4 @@
-    /**
+﻿    /**
      * Default configuration settings
      */
     getDefaults = function () {

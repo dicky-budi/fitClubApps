@@ -1,4 +1,4 @@
-    /**
+﻿    /**
      * Tristate charts
      */
     $.fn.sparkline.tristate = tristate = createClass($.fn.sparkline._base, barHighlightMixin, {

@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Tabs @VERSION
  * http://jqueryui.com
  *

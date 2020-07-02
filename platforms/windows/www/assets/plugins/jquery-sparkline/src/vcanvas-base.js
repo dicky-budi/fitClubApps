@@ -1,4 +1,4 @@
-    // Setup a very simple "virtual canvas" to make drawing the few shapes we need easier
+﻿    // Setup a very simple "virtual canvas" to make drawing the few shapes we need easier
     // This is accessible as $(foo).simpledraw()
 
     VShape = createClass({

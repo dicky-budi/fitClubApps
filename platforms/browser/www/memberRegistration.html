@@ -228,6 +228,23 @@
 	</div>
 	</div>
 </section>
+<script type="text/javascript">
+	// function listener cordova
+	document.addEventListener("deviceready", onDeviceReady, false);
+
+	function onDeviceReady() {
+		document.addEventListener("backbutton", onBackKeyDown, false);
+	}
+
+	function onBackKeyDown() {
+		var url = window.location.href.replace(/^.*[\\\/]/, '');
+		if (url == "memberRegistration.html") {
+			window.location = "index.html";
+		}
+		// navigator.app.exitApp();
+	}
+	// End function Listener cordova
+</script>
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 <script src="assets/plugins/jquery/jquery.min.js"></script>

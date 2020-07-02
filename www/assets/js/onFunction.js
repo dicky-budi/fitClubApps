@@ -136,6 +136,42 @@ $(document).on('click','#mandiri',function(){
 	window.location.href="paymentManual.html?cat=" + cat_id +"&bank=" +bank_name+"&cat_name=" +cat_name+"&placeIdPay="+placeGymId+"&cat_price="+cat_price+"&requestCat="+requestCat+"&oldMemberCatManual="+oldMemberCatManual+"&bank_name="+bank_name_real;
 })
 
+$(document).on('change','#demo',function(){
+	console.log('woe',$(this).val());
+	var datee = $(this).val();
+	let profile = JSON.parse(localStorage.getItem('dataProfile'));
+	$('#classScheduleData').empty();
+	$('#classScheduleData').html('');
+	$.ajax({
+		url: urlService + '/class/schedule/'+profile.data.accessToken,
+		crossDomain: true,
+		method: "GET",
+		headers: {
+			"Content-Type": "application/json",
+			"Accept": "*/*",
+			"Cache-Control": "no-cache",
+			"param" :JSON.stringify({'byDate':datee})
+		},
+		timeout: 8000,
+		tryCount: 0,
+		retryLimit: 3,
+		success: function (callback) {
+			console.log('kembalian onchange demo', callback);
+			switch (callback.responseCode) {
+				case "200":
+					callback.data.forEach(domClassSchedule);
+					break;
+				default:
+					notification(500,'empty data');
+					break;
+			}
+		},
+		error:function(callback){
+			notification(500,'empty data');
+		}
+	})
+})
+
 $(document).on('click','button, a',function(){
 	target = $(this).data('target');
 	uri = $(this).data('uri');
@@ -198,7 +234,7 @@ $(document).on('click','button, a',function(){
 			postData(uri,target,data);
 		} else if(uri == 'view'){
 			if(filter == 'listClass'){
-				window.location.href="classList.html";
+				window.location.href="classSchedule.html";
 			} else if(filter == 'profile'){
 				window.location.href="profile.html";
 			} else if(filter == 'membership'){
@@ -249,7 +285,7 @@ function appendMembershipData(dataProfile){
 			"<br><span class='fa fa-star'></span>&nbsp;&nbsp;Privilage &nbsp;"+
 			"<br><span class='fa fa-book'></span>&nbsp;&nbsp;Policy &nbsp;</small>";
 			classButton = '<button type="button" class="text-white btn purple-gradient btn-md btn-block btn-floating" data-uri="view" data-filter="listAvailableClass" data-target="listAvailableClass">Check Available Class</button>'; 
-			buttonHtml = '<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#modalPoll-1">Upgrade Member</button>';
+			buttonHtml = '<button type="button" class="btn btn-primary btn-block upgradeMember" data-toggle="modal" data-target="#modalPoll-1">Upgrade Member</button>';
 			$('#defineClassMemberButton').append(classButton);
 			$('.btnMembership').attr('data-type','upgrade');
 			break;

@@ -1,4 +1,4 @@
-/*global $, window*/
+﻿/*global $, window*/
 $.fn.editableTableWidget = function (options) {
 	'use strict';
 	return $(this).each(function () {

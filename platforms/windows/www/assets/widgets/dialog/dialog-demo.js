@@ -1,4 +1,4 @@
-/* jQueryUI Dialogs */
+﻿/* jQueryUI Dialogs */
 
 $(function() {
 

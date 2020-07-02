@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Sortable @VERSION
  * http://jqueryui.com
  *

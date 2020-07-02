@@ -1,4 +1,4 @@
-/*!
+﻿/*!
  * jQuery UI Slider @VERSION
  * http://jqueryui.com
  *

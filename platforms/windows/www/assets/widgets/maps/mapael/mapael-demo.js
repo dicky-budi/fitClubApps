@@ -1,4 +1,4 @@
-$(function(){
+﻿$(function(){
 
 	// Example #1
 	$(".maparea1").mapael({

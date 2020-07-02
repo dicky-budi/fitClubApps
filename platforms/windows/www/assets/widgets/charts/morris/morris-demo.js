@@ -1,4 +1,4 @@
-/* Morris color bar */
+﻿/* Morris color bar */
 
 $(function() {
     "use strict";

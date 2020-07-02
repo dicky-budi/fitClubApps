@@ -1,4 +1,4 @@
-    /**
+﻿    /**
      * Pie charts
      */
     $.fn.sparkline.pie = pie = createClass($.fn.sparkline._base, {

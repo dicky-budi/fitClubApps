@@ -1,4 +1,4 @@
-/*
+﻿/*
 waitMe - 1.15 [15.02.16]
 Author: vadimsva
 Github: https://github.com/vadimsva/waitMe

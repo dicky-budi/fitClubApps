@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Compiled inline version. (Library mode)
  */
 

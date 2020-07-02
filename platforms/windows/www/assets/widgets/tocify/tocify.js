@@ -1,4 +1,4 @@
-/* jquery Tocify - v1.9.0 - 2013-10-01
+﻿/* jquery Tocify - v1.9.0 - 2013-10-01
  * http://www.gregfranko.com/jquery.tocify.js/
  * Copyright (c) 2013 Greg Franko; Licensed MIT */
 

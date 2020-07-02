@@ -1,4 +1,4 @@
-$(function(){
+﻿$(function(){
 
     //Uncomment the line and switch modes
     //$.fn.editable.defaults.mode = 'inline';

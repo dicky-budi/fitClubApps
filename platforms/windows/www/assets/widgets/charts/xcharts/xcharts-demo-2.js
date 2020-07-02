@@ -1,4 +1,4 @@
-$(function() {
+﻿$(function() {
 
     var tt = document.createElement('div'),
         leftOffset = -(~~$('html').css('padding-left').replace('px', '') + ~~$('body').css('margin-left').replace('px', '')),

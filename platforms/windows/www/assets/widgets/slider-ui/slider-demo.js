@@ -1,4 +1,4 @@
-  /* jQuery UI Slider */
+﻿  /* jQuery UI Slider */
 
   $(function() {
       "use strict";

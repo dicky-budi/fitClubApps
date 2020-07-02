@@ -1,4 +1,4 @@
-$(document).ready(function() {
+﻿$(document).ready(function() {
 
     var updateOutput = function(e) {
         var list = e.length ? e : $(e.target),

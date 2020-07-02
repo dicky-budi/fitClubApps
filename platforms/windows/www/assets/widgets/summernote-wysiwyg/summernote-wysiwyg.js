@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Super simple wysiwyg editor on Bootstrap v0.5.3
  * http://hackerwins.github.io/summernote/
  *

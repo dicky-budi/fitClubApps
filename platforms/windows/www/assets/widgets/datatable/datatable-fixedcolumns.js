@@ -1,4 +1,4 @@
-/*! FixedColumns 3.0.2
+﻿/*! FixedColumns 3.0.2
  * Â©2010-2014 SpryMedia Ltd - datatables.net/license
  */
 

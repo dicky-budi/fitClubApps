@@ -1,4 +1,4 @@
-var profile = {
+﻿var profile = {
     resourceTags: {
         ignore: function(filename, mid){
             // only include moment/moment

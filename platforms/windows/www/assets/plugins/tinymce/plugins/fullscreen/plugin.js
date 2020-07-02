@@ -1,4 +1,4 @@
-/**
+﻿/**
  * plugin.js
  *
  * Released under LGPL License.
